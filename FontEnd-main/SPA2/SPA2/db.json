@@ -1,0 +1,18 @@
+{
+  "sinhVien": [
+    {
+      "ten": "Minh",
+      "gioiTinh": "Nam",
+      "lop": "A",
+      "diaChi": "HNq",
+      "id": "SV1"
+    },
+    {
+      "ten": "ma",
+      "gioiTinh": "Nam",
+      "lop": "a",
+      "diaChi": "2s",
+      "id": "2"
+    }
+  ]
+}

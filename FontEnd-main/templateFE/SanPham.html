@@ -1,0 +1,84 @@
+<div class="row">
+  <div class="row col-2"></div>
+  <div class="row col-8">
+    <form action="" method="post">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">id</label>
+        <input type="text" class="form-control" ng-model="id">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">ten</label>
+        <input type="text" class="form-control" ng-model="ten">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">so luong ton</label>
+        <input type="text" class="form-control" ng-model="soLuongTon">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">loai san pham</label>
+        <select class="form-select" aria-label="Default select example" ng-model="loaiSanPham">
+          <option value="Sach 1">s1</option>
+          <option value="Sach 2">s2</option>
+          <option value="Sach 3">s3</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">gia</label>
+        <input type="text" class="form-control" ng-model="gia">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">hinh thuc san xuat</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="Ngoai nuoc"
+            ng-model="hinhThucSanXuat">
+          <label class="form-check-label" for="flexRadioDefault1">
+            Ngoai nuoc
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="Trong nuoc"
+            ng-model="hinhThucSanXuat" checked>
+          <label class="form-check-label" for="flexRadioDefault2">
+            Trong nuoc
+          </label>
+        </div>
+      </div>
+      <a href="#them"><button type="submit" class="btn btn-primary" ng-click="them()">Them</button></a>
+
+    </form>
+    <!-- <a href="#them"><button type="submit" class="btn btn-primary" ng-click="them()">Them</button></a>
+    <a href="#sua"><button type="submit" class="btn btn-primary" ng-click="sua()">Sua</button></a> -->
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">id</th>
+          <th scope="col">ten</th>
+          <th scope="col">so luong ton</th>
+          <th scope="col">loai</th>
+          <th scope="col">gia</th>
+          <th scope="col">hinh thuc san xuat</th>
+          <th scope="col">cn</th>
+
+        </tr>
+      </thead>
+      <tbody ng-repeat="SanPham in listSanPham">
+        <tr>
+          <th>{{SanPham.id}}</th>
+          <th>{{SanPham.ten}}</th>
+          <th>{{SanPham.soLuongTon}}</th>
+          <th>{{SanPham.loaiSanPham}}</th>
+          <th>{{SanPham.gia}}</th>
+          <th>{{SanPham.hinhThucSanXuat}}</th>
+          <td>
+            <a class="btn btn-primary" href="#detail/{{SanPham.id}}">DETAIL</a>
+            <button class="btn btn-primary" ng-click="delete(SanPham.id)">
+              Delete
+            </button>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+  <div class="row col-2"></div>
+</div>

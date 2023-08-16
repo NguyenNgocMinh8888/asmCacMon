@@ -1,0 +1,25 @@
+{
+    "sinhVien":[
+    {
+        "ID": "1",
+        "Ten": "Nguyen Ngoc Minh",
+        "Tuoi": "20",
+        "DiaChi": "NTL",
+        "LopHoc": "SD18101"
+    },
+    {
+        "ID": "2",
+        "Ten": "Nguyen Ngoc Minh",
+        "Tuoi": "20",
+        "DiaChi": "NTL",
+        "LopHoc": "SD18101"
+    },
+    {
+        "ID": "3",
+        "Ten": "Nguyen Ngoc Minh",
+        "Tuoi": "20",
+        "DiaChi": "NTL",
+        "LopHoc": "SD18101"
+    }
+]
+}

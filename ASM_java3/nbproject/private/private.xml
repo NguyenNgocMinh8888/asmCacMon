@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Java3/asm/src/view/QuanLySinhVienUI.java</file>
+            <file>file:/C:/Java3/asm/src/service/impl/SinhVienServiceIMPL.java</file>
+            <file>file:/C:/Java3/asm/src/repo/DBConnection.java</file>
+            <file>file:/C:/Java3/asm/src/repo/DiemRepository.java</file>
+            <file>file:/C:/Java3/asm/src/service/SinhVienService.java</file>
+            <file>file:/C:/Java3/asm/src/view/Login.java</file>
+            <file>file:/C:/Java3/asm/src/service/DiemService.java</file>
+            <file>file:/C:/Java3/asm/src/model/Diem.java</file>
+            <file>file:/C:/Java3/asm/src/repo/SinhVienRepository.java</file>
+            <file>file:/C:/Java3/asm/src/model/SinhVien.java</file>
+            <file>file:/C:/Java3/asm/src/view/QuanLyDiemUI.java</file>
+            <file>file:/C:/Java3/asm/src/service/impl/DiemServiceIMPL.java</file>
+        </group>
+    </open-files>
+</project-private>

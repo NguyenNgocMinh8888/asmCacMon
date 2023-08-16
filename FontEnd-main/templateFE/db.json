@@ -1,0 +1,28 @@
+{
+  "SanPham": [
+    {
+      "id": 1,
+      "ten": "rolex",
+      "soLuongTon": "101",
+      "loaiSanPham": "Sach 1",
+      "gia": "100000",
+      "hinhThucSanXuat": "Trong nuoc"
+    },
+    {
+      "id": 2,
+      "ten": "omega",
+      "soLuongTon": "10",
+      "loaiSanPham": "Sach 2",
+      "gia": "2",
+      "hinhThucSanXuat": "Ngoai nuoc"
+    },
+    {
+      "id": "11111",
+      "ten": "1a",
+      "soLuongTon": "11",
+      "loaiSanPham": "Sach 1",
+      "gia": "1",
+      "hinhThucSanXuat": "Ngoai nuoc"
+    }
+  ]
+}
